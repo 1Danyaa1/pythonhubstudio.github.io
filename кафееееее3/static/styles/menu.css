@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins","sans-serif"
+
+}
+
+.pictures>img {
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.pictures {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://pibig.info/uploads/posts/2021-04/thumbs/1619515796_10-pibig_info-p-anime-dobro-pozhalovat-anime-krasivo-11.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 80px 100px 0;
+}
+

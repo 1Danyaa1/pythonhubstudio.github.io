@@ -1,0 +1,205 @@
+.bady {
+    background: #fff url(/img/ottawa.jpg) center center/cover no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins","sans-serif"
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+
+}
+
+
+.header .logo {
+    font-size: 1.7em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a {
+    font-size: 1.1em;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+/* шапка трансформируется при наведении */
+
+.nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .5s;
+
+}
+
+/* активация шапки */
+
+.nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612298674_161-p-anime-peizazh-fon-fioletovii-235.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 80px 100px 0;
+
+}
+
+home .content {
+    max-width: 600px;
+    color: rgb(255, 255, 255);
+}
+
+.content h2 {
+    font-size: 3em;
+    letter-spacing: .03em;
+}
+
+.content p {
+    font-size: 2em;
+    letter-spacing: .02em;
+}
+
+.content a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 40px;
+    
+
+}
+
+
+.content p {
+    margin: 10px 0 40px;
+}
+
+.content a:hover {
+    background: #aba8ca;
+    
+}
+
+.nav-btn {
+    display: none;
+}
+
+
+.nav:hover a1 {
+    position: absolute;
+    
+}
+
+.burger {
+    font-size: 2em;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    border: none;
+    background-color: #04abf8;
+    color: #e01f1f;
+    
+}
+@media (max-width: 10000px) {
+
+    
+}
+
+.block {
+    position:absolute;
+    top: 100px;
+    left: 350px;
+    width: 570px;
+    height: 200px;
+    
+    background-image: url(https://sun9-10.userapi.com/impg/8tMM7gXEsEJvCAT_Dj2kV5u102bwjWpRUTZV_Q/nuthd6LGExE.jpg?size=456x197&quality=96&sign=d430becb07dae95544d13bb19dfccbb8&type=album);
+    z-index: 1;
+}
+
+.lapa {
+    position:absolute;
+    top: 350px;
+    left: 30px;
+    width: 570px;
+    height: 400px;
+    background-color: #e01f1f;
+    background-image: url(https://sun9-48.userapi.com/impg/DFnrmYw7n75ukSWuNVi1Nt6EijYzo_d8D5jAzg/qoimreNchZc.jpg?size=601x390&quality=96&sign=6d4123626cd8b11cc82e6b6a8b6c05d2&type=album);
+    z-index: 1;
+}
+
+.bulka {
+    position:absolute;
+    top: 350px;
+    left: 640px;
+    width: 570px;
+    height: 400px;
+    background-color: #e01f1f;
+    background-image: url(https://sun9-47.userapi.com/impg/cbVKO6i9p4wZ_Y_LIAAYZxNMm4CMPWlHDzBK_A/Ks0l7ONitkA.jpg?size=681x402&quality=96&sign=0df33a3ad9bed622947ddb62ebcb186f&type=album);
+    z-index: 1;
+}
+
+.podlapa {
+    position:absolute;
+    top: 780px;
+    left: 30px;
+    width: 570px;
+    height: 90px;
+    
+    background-image: url();
+    z-index: 1;
+}
+
+.podlapa {
+    text-align: center;
+    color: #aba8ca;
+}
+
+.podbulka {
+    position:absolute;
+    top: 780px;
+    left: 640px;
+    width: 570px;
+    height: 90px;
+    
+    background-image: url();
+    z-index: 1;
+}
+
+.podbulka {
+    text-align: center;
+    color: #aba8ca;
+}
+
+
+
+
